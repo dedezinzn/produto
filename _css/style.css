@@ -1,0 +1,58 @@
+nav#menu {
+    display: block;
+
+}
+
+nav#menu ul {
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    left: 900px;
+    top: 40px;
+
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: aquamarine;
+}
+
+body {
+    background-color: aquamarine;
+    margin: 0px;
+}
+
+header {
+    background-color: aliceblue;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    position: relative;
+
+
+}
+
+img {
+    width: 300px;
+}
+
+
+nav#menu a:link {
+    text-decoration: none;
+    color: black;
+    font-family: verdana;
+    font-weight: bold;
+    transition: all 0.8s ease;
+}
+
+nav#menu a:visited {
+    color: black;
+}
+
+nav#menu a:hover {
+    color: aliceblue;
+
+}
